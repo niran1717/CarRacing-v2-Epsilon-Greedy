@@ -14,7 +14,7 @@ plt.legend()
 plt.grid()
 plt.savefig("car_trajectory.png")
 plt.show()
-"""
+
 # Load rewards
 rewards = np.load("rewards_per_episode.npy")
 rewards_smoothed = np.convolve(rewards, np.ones(20)/20, mode='valid')
@@ -28,4 +28,3 @@ plt.legend()
 plt.grid()
 plt.savefig("reward_progression_smoothed.png")
 plt.show()
-"""
