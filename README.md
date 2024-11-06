@@ -11,7 +11,6 @@ This project demonstrates a reinforcement learning approach to autonomous car co
 - [Files](#files)
 - [Results](#results)
 - [Future Work](#future-work)
-- [References](#references)
 
 ## Project Overview
 The goal of this project is to train an agent to drive autonomously in a simulated environment by optimizing its driving behavior using reinforcement learning. An epsilon-greedy policy is implemented to explore actions and update the policy based on rewards obtained from the environment.
@@ -28,25 +27,29 @@ The epsilon-greedy policy allows the agent to explore actions randomly with a pr
 ## Installation
 Clone this repository and navigate to the project directory
 
-## Create a virtual environment (recommended):
+## Usage
+### Create a virtual environment (recommended):
 python3 -m venv venv
 
-## Install the required packages:
+### Install the required packages:
 pip install -r requirements.txt
 
-## To train the agent, run the following command:
+### To train the agent, run the following command:
 python train.py
 
-## To visualize the agent’s behavior in the CarRacing-v2 environment, use:
+### To visualize the agent’s behavior in the CarRacing-v2 environment, use:
 python visualize.py
 
-## All files
-experience_history.py: Implements the Experience Replay Buffer.
-dqn.py: Contains the DQN class with the neural network architecture.
-car_racing_dqn.py: Customizes the DQN for the car racing environment.
-train.py: Manages the training loop and checkpoints.
-visualize.py: Visualizes the agent's performance after training.
-plot.py: plots the required graphs or results
+## Files
+- experience_history.py: Implements the Experience Replay Buffer.
+- dqn.py: Contains the DQN class with the neural network architecture.
+- car_racing_dqn.py: Customizes the DQN for the car racing environment.
+- train.py: Manages the training loop and checkpoints.
+- visualize.py: Visualizes the agent's performance after training.
+- plot.py: plots the required graphs or results
+
+## Results
+Throughout training, the agent's rewards improve as it learns to navigate the environment. Epsilon-greedy exploration allows the agent to find an optimal driving strategy by balancing exploration of new actions with exploitation of known strategies.
 
 ## Future Work
 Possible enhancements include:
