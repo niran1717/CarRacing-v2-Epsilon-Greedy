@@ -1,0 +1,88 @@
+absl-py==2.1.0
+ale-py==0.8.1
+astunparse==1.6.3
+AutoROM==0.6.1
+AutoROM.accept-rom-license==0.6.1
+box2d-py @ file:///D:/bld/box2d-py_1695443552555/work
+cachetools==5.5.0
+certifi==2024.8.30
+charset-normalizer==3.4.0
+click==8.1.7
+cloudpickle @ file:///home/conda/feedstock_root/build_artifacts/cloudpickle_1729059237860/work
+colorama==0.4.6
+contourpy==1.3.0
+cycler==0.12.1
+Farama-Notifications @ file:///home/conda/feedstock_root/build_artifacts/farama-notifications_1684258120643/work
+filelock==3.16.1
+flatbuffers==24.3.25
+fonttools==4.54.1
+fsspec==2024.10.0
+gast==0.4.0
+google-auth==2.35.0
+google-auth-oauthlib==1.0.0
+google-pasta==0.2.0
+grpcio==1.67.0
+gymnasium==0.29.1
+h5py==3.12.1
+idna==3.10
+imagecodecs @ file:///D:/bld/imagecodecs_1729174912019/work
+imageio @ file:///home/conda/feedstock_root/build_artifacts/imageio_1729190692267/work
+importlib_metadata @ file:///home/conda/feedstock_root/build_artifacts/importlib-metadata_1726082825846/work
+importlib_resources==6.4.5
+jax-jumpy @ file:///home/conda/feedstock_root/build_artifacts/jax-jumpy_1679161251636/work
+Jinja2==3.1.4
+keras==2.13.1
+kiwisolver==1.4.7
+lazy_loader @ file:///home/conda/feedstock_root/build_artifacts/lazy-loader_1723774329602/work
+libclang==18.1.1
+Markdown==3.7
+markdown-it-py==3.0.0
+MarkupSafe==3.0.2
+matplotlib==3.9.2
+mdurl==0.1.2
+mpmath==1.3.0
+munch @ file:///home/conda/feedstock_root/build_artifacts/munch_1688318326844/work
+networkx @ file:///home/conda/feedstock_root/build_artifacts/networkx_1729530778722/work
+numpy==1.24.3
+oauthlib==3.2.2
+opencv-python==4.10.0.84
+opt_einsum==3.4.0
+packaging @ file:///home/conda/feedstock_root/build_artifacts/packaging_1718189413536/work
+pandas==2.2.3
+pillow @ file:///D:/bld/pillow_1729065756366/work
+protobuf==4.25.5
+psutil==6.1.0
+pyasn1==0.6.1
+pyasn1_modules==0.4.1
+pygame==2.6.1
+Pygments==2.18.0
+pyparsing==3.2.0
+python-dateutil==2.9.0.post0
+pytz==2024.2
+PyWavelets==1.7.0
+requests==2.32.3
+requests-oauthlib==2.0.0
+rich==13.9.3
+rsa==4.9
+scikit-image @ file:///D:/bld/scikit-image_1729813866950/work
+scipy @ file:///C:/bld/scipy-split_1729480803190/work/dist/scipy-1.14.1-cp311-cp311-win_amd64.whl#sha256=876bb04b690bc075c6fa8736ed166f36f26dc912c7ea970530659afc09cd6dd1
+Shimmy==1.3.0
+six==1.16.0
+stable_baselines3==2.3.2
+sympy==1.13.3
+tensorboard==2.13.0
+tensorboard-data-server==0.7.2
+tensorflow==2.13.0
+tensorflow-estimator==2.13.0
+tensorflow-intel==2.13.0
+tensorflow-io-gcs-filesystem==0.31.0
+termcolor==2.5.0
+tifffile @ file:///home/conda/feedstock_root/build_artifacts/tifffile_1727250434425/work
+torch==2.1.2
+tqdm==4.66.5
+typing_extensions==4.5.0
+tzdata==2024.2
+urllib3==2.2.3
+Werkzeug==3.0.6
+wrapt==1.16.0
+zipp @ file:///home/conda/feedstock_root/build_artifacts/zipp_1726248574750/work
